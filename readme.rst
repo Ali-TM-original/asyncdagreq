@@ -1,4 +1,4 @@
-aiozaneapi - An async wrapper made in Python for Zane API.
+Asyncdagreq --An async api wrapper for Dagpi
 ==========================================================
 
 `Dagpi <https://dagpi.xyz/>`_
