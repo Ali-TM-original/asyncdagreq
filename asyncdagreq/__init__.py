@@ -47,7 +47,7 @@ class ERROR502(Exception):
         super(ERROR502, self).__init__(message)
 
 
-class asyncdagreq:
+class Main:
     def __init__(self, token: str):
         header = {
             'Authorization': f'{token}'
@@ -619,6 +619,106 @@ class asyncdagreq:
                  'text': txt}
         async with self.session.get(
                 f'{self.image_url}/retromeme/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def burn(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/burn/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def comic(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/comic/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def sketch(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/sketch/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def spin(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/spin/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def dissolve(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/dissolve/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def neon(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/neon/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def petpet(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/petpet/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def freeze(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/freeze/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def earth(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/earth/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def solar(self, url: str):
+        param = {'url': url}
+        async with self.session.get(f'{self.image_url}/solar/', params=param) as resp:
+            await self.error_detection(resp.status)
+            data = await resp.read()
+
+        byte = BytesIO(data)
+        return byte
+
+    async def thought_image(self, url: str, txt:str):
+        param = {'url': url,
+        "text":txt}
+        async with self.session.get(f'{self.image_url}/thoughtimage/', params=param) as resp:
             await self.error_detection(resp.status)
             data = await resp.read()
 
