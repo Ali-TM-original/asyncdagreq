@@ -8,6 +8,7 @@ tasks remaining:
     ~~1>Error Detection~~
     
     2>.Testing
+    3>.Get this up and running on pypi
 
 # Usage with discord.py  (till now)
 super simple
