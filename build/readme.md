@@ -15,3 +15,4 @@ tasks remaining:
 
 # RELEASE NOTES
    ## A new Dream
+   FIRST RELEASE COMMING SOON ON PYPI
