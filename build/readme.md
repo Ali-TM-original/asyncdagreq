@@ -25,4 +25,6 @@ tasks remaining:
   ### Third Release 1.1.4
       Fixed mispelled class
       everything should be working fine
-       
+  ### Forth Release 1.1.5
+      Fixed some known issues
+      Organized Errors into a different class
