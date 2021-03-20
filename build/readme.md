@@ -14,6 +14,15 @@ tasks remaining:
     3>.Get this up and running on pypi
 
 # RELEASE NOTES
-   ## A new Dream
+   ## A new Dream 1.0.0
+    Alpha state of the library everthing is broken :O
    ### First Release 1.1.2
         CHANGES LOOK AT DAGPI'S OFFICIAL WEBSITE
+        
+   ### Second Release 1.1.3
+       Fixed a broken endpoint typo.
+       Issues = Mispelled the main class
+  ### Third Release 1.1.4
+      Fixed mispelled class
+      everything should be working fine
+       
