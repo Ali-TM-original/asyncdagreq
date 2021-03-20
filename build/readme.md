@@ -15,4 +15,5 @@ tasks remaining:
 
 # RELEASE NOTES
    ## A new Dream
-   FIRST RELEASE COMMING SOON ON PYPI
+   ### First Release 1.1.2
+        CHANGES LOOK AT DAGPI'S OFFICIAL WEBSITE
