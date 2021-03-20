@@ -8,10 +8,11 @@ Just A small project to imporve my skills in Object Oriented Programming, inspir
 
 NOT READY FOR USE YET
 tasks remaining:
-    ~~1>Error Detection~~
-    
-    2>.Testing
-    3>.Get this up and running on pypi
+
+    1>Error Detection (Done)
+    2>.Testing (Done)
+    3>.Get this up and running on pypi (Done)
+    4>.Organizing the code (Current Phase)
 
 # RELEASE NOTES
    ## A new Dream 1.0.0
