@@ -12,6 +12,8 @@ tasks remaining:
     2>.Testing
     3>.Get this up and running on pypi
 
+## CURRENT STATE : BROKEN
+
 # Usage with discord.py  (till now)
 super simple
 
