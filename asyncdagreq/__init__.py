@@ -11,7 +11,7 @@ from collections import namedtuple
 __title__ = "asyncdagreq"
 __author__ = "Ali-TM-original"
 __license__ = "MIT"
-__copyright__ = "Copyright 2020 Daggy1234"
+__copyright__ = "Copyright 2020 Ali-TM-original"
 __version__ = '1.1.7'
 
 from .Client import Asyncdagreq
