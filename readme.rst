@@ -4,8 +4,7 @@ unofficial DagpiWrapper
 Async Wrapper for Dagpi
 
 | `OFFICIAL DAGPI WEBSITE <https://dagpi.xyz/>`__
-| `OFFICIAL GITHUB
-REPO <https://github.com/Ali-TM-original/asyncdagreq>`__
+| `OFFICIAL GITHUBREPO <https://github.com/Ali-TM-original/asyncdagreq>`__
 
 Author: Ali™ AKA Ali-TM-original
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
