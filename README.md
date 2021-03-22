@@ -19,10 +19,10 @@ super simple
 
 **Roast**
 
-    from asyncdagreq import asyncdagreq
+    from asyncdagreq import Client
     import json
 
-    object = asyncdagreq('your token')
+    object = Client.Asyncdagreq('your token')
 
     @bot.command()
     async def roast(ctx):
@@ -33,10 +33,10 @@ super simple
         
 **USING IMAGE METHODS**
 
-    from asyncdagreq import asyncdagreq
+    from asyncdagreq import Client
     import json
 
-    object = asyncdagreq('your token')
+    object = Client.Asyncdagreq('your token')
     
     @bot.command()
     async def captcha(ctx):
