@@ -514,9 +514,9 @@ class Asyncdagreq:
         byte = BytesIO(data)
         return byte
 
-    async def tweet(self, url: str, url2: str, txt: str):
+    async def tweet(self, url: str, username: str, txt: str):
         param = {'url': url,
-                 'username': url2,
+                 'username': username,
                  'text': txt}
         async with self.session.get(f'{self.image_url}/tweet/', params=param) as resp:
             await self.error_detection(resp.status)
@@ -525,9 +525,9 @@ class Asyncdagreq:
         byte = BytesIO(data)
         return byte
 
-    async def yt(self, url: str, url2: str, txt: str, theme: bool = True):
+    async def yt(self, url: str, username: str, txt: str, theme: bool = True):
         param = {'url': url,
-                 'url2': url2,
+                 'username': username,
                  'text': txt,
                  'dark': theme}
         async with self.session.get(f'{self.image_url}/yt/', parms=param) as resp:
@@ -537,9 +537,9 @@ class Asyncdagreq:
         byte = BytesIO(data)
         return byte
 
-    async def discord(self, url: str, url2: str, txt: str, theme: bool = True):
+    async def discord(self, url: str, username: str, txt: str, theme: bool = True):
         param = {'url': url,
-                 'url2': url2,
+                 'username': username,
                  'text': txt,
                  'dark': theme}
         async with self.session.get(f'{self.image_url}/discord/', params=param) as resp:
